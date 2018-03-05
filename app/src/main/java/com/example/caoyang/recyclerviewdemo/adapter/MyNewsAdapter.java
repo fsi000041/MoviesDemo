@@ -63,9 +63,9 @@ public class MyNewsAdapter extends RecyclerView.Adapter<MyNewsAdapter.NewsAdapte
 
         Glide.with(context).load(newImagUrl).into(holder.videoView.thumbImageView);
 
-        if (holder.videoView != null) {
-            holder.videoView.release();
-        }
+//        if (holder.videoView != null) {
+//            holder.videoView.release();
+//        }
 
 
 
